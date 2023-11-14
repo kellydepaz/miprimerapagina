@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;  
+    
+}
+
+header {   
+    width: 100%;
+    height: 100px;
+    display: flex; 
+    align-items: center;   
+    justify-content: space-between;    
+    padding-right: 40px;        
+    position: fixed;
+    top: 0%;
+    border-bottom: 1px solid rgb(197, 168, 224) ;
+    background-color: rgb(255, 255, 255);
+}
+
+header div img {
+    width: 60px;
+    margin-left: 20px;    
+}
+
+
+nav ul {    
+    display: flex;   
+    
+}
+
+nav ul li {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(195, 186, 169);
+    
+}
+
+li:hover {
+    color: black;
+}
+
+
+.seccion-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+       
+
+}
+
+
+.seccion-1 .acerca-de h1 {
+    color: rgb(195, 186, 169);
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.titulo2 {
+    color: rgb(195, 186, 169);
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Montserrat Alternates', sans-serif; 
+} 
+
+.seccion-1 .acerca-de p {
+    margin-top: 10px;
+    font-size: 36px;
+    color:  rgb(197, 168, 224) ;
+    text-align: end;
+    font-weight: bolder;    
+    line-height: 38px;
+}
+
+.seccion-1 .acerca-imagen img {
+    width: 430px;
+}
+
+
+.seccion-2,
+.seccion-3 {
+    width: 100%;
+    margin-top: 100px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-2 .acerca-de-mi { 
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.seccion-2 .acerca-de-mi-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seccion-2 .acerca-de-mi-imagenes img {
+    width: 200px;    
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.seccion-2 .acerca-de-mi-informacion h2 {
+    color: rgb(195, 186, 169);
+    font-size: 42px;
+}
+
+
+.seccion-2 .acerca-de-mi-informacion p {
+    width: 700px;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.seccion-2 .acerca-de-mi-informacion p span {
+    color: rgb(197, 168, 224);
+    font-weight: bolder;
+}
+
+.seccion-3 .acerca-de-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-3 .acerca-de-proyectos h2{
+    color: rgb(195, 186, 169);
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.seccion-3 .acerca-de-proyectos-informacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.seccion-3 .acerca-de-proyectos-informacion div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion-3 .acerca-de-proyectos-informacion p {
+    width: 500px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.seccion-3 .acerca-de-proyectos-informacion img {
+    width: 400px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.seccion-3 .acerca-de-proyectos-informacion h3 {
+    color: rgb(197, 168, 224);
+    margin-top: 10px;
+    margin-bottom: 80px;
+    
+}
+
+footer {
+    height: auto;
+    margin-top: 20px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(197, 168, 224);
+}
+
+footer img {
+    width: 40px;
+}
+
+footer h3 {
+    color: white;
+    font-size: 30px;
+}
+
+footer ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer ul a {
+    color: white;
+    margin-bottom: 50px;
+   
+}
+
+.footer-form {
+    margin-top: 20px;
+}
+
+.footer-form p {
+    font-size: 14px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.form-row label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-row input {
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 14px;
+}
+
+.form-row input:hover {
+    font-family: 'Poppins', sans-serif;  
+   
+}
+
+.form-row input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px; 
+     
+   
+}
+
+.form-row p.alertas {
+    font-size: 12px;
+    color: red;
+    font-weight: bolder;
+}
+
+.form-row textarea {
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    height: 140px;
+}
+
+
+
+.form-row button {
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(195, 186, 169);
+    cursor: pointer;
+}
+
+
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: rgb(197, 168, 224);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 1450px) {
+    .seccion-1  {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .seccion-1 .acerca-de h1 {
+        font-size: 34px;
+    }
+
+    .seccion-1 .acerca-de p {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .seccion-1 .acerca-imagen img {
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .seccion-2 {
+        margin-top: 60px;
+    }
+
+    .seccion-2 .acerca-de-mi {
+        
+        flex-direction: column-reverse;
+
+    }
+
+    .seccion-2 .acerca-de-mi h2,
+    .seccion-2 .acerca-de-mi p {
+        text-align: center;
+    }
+
+    .seccion-2 .acerca-de-mi h2 {
+        font-size: 34px;
+    }
+    .seccion-2 .acerca-de-mi p {
+        font-size: 20px;
+    }
+
+    .seccion-3 .acerca-de-proyectos h2 {
+        margin-bottom: 30px;
+    }
+
+    .seccion-3 .acerca-de-proyectos-informacion h3 {
+        margin-bottom: 0px;
+    }
+
+}
+
+
+@media (max-width: 768px ) {
+
+    .seccion-1 .acerca-de h1 {
+        font-size: 38px;
+        margin-bottom: 30px;
+    }
+    .seccion-2 .acerca-de-mi-imagenes {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    .seccion-2 .acerca-de-mi-informacion p {
+        width: 100%;        
+        padding: 0 30px 0 30px;
+    }
+
+    .seccion-2 .acerca-de-mi-imagenes img {
+        width: 150px;
+        height: 160px;
+    }
+
+    .seccion-3 .acerca-de-proyectos-informacion p {
+        width: 100%;
+        padding: 20px 30px 20px 30px;
+    }
+   
+    .checkbtn {
+        display: block;
+    }
+    
+    .navbar {
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        background-color: rgb(197, 168, 224);
+        text-align: center;
+        top: 100px;
+        left: 0%;
+        transition: all 0.5s;
+        overflow: hidden;
+    }
+
+    .navbar ul.menu {
+        float: none;
+        display: block;
+        width: 174px;
+        margin: 0 auto;
+        opacity: 0;
+      }
+
+
+    #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        color: white;
+
+    }
+
+    #encabezado nav ul li:hover {
+        color: black;
+
+    }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer-redes {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .footer-redes ul {
+        margin-top: 0;
+    }
+
+    
+    /*Cuando se aplique la clase ACTIVE*/
+    .navbar.active {
+        height: 100vh;
+    }
+    
+      .navbar.active ul.menu {
+        opacity: 1;
+    }
+
+    
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a8eb15532.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>   
+    <script defer src="script.js"></script>
+    <title>Mi primera página web</title>
+</head>
+<body>
+    <header id="encabezado">
+        <div>
+            <img src="./img/flor-logo.svg" alt="">
+        </div>
+
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <nav class="navbar">            
+            <ul class="menu">                    
+                <li>Inicio<a href="/"></a></li>
+                <li>Acerca de mi<a href="/"></a></li>
+                <li>Proyectos<a href="/"></a></li>
+                <li>Contacto<a href="/"></a></li>
+            </ul>            
+        </nav>            
+    </header>
+    
+
+    <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="acerca-de">
+                <h1>Te doy la bienvenida a ¡TECHBLOSSOM! <i class="fa-solid fa-heart fa-fade"></i></h1>
+                <p>¡Ven y florece conmigo  <br>en el mundo de las páginas webs!</p>                    
+            </div>
+
+            <div class="acerca-imagen">
+                <img src="./img/logo-img.png" alt="imagen kelly">
+            </div>
+        </section>
+
+        <section class="seccion-2" >  
+            <div class="acerca-de-mi">
+                <div class="acerca-de-mi-imagenes">
+                    <img src="./img/mujer-trotando-imagen.jpg" alt="foto de mujer trotando">
+                    <img src="./img/audifonos-imagen.jpg" alt="foto de audifonos">
+                    <img src="./img/atardecer-imagen.jpg" alt="foto de atardecer">
+                </div>
+
+                <div class="acerca-de-mi-informacion">
+                    
+                    <h2>Sobre mi</h2>
+                    <p>Me llamo Kelly, nací en Colombia y vivo en Barranquilla. <br>Te cuento un poco acerca de mi: Me gusta salir a trotar, escuchar música y tomar muchas, pero muchas fotos.<br>Aqui encontrarás a una principiante tratando de <span>aprender y florecer en el mundo de la tecnología</span>😜</p>    
+                </div>             
+            </div>
+        </section>            
+
+        <section class="seccion-3">
+            <div class="acerca-de-proyectos">
+                <h2>Proyectos</h2>
+                <div class="acerca-de-proyectos-informacion">
+                    <div>
+                        <img src="./img/proyectos-imagen.jpg" alt="mujer trabajando">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptatum rerum quasi ipsa omnis maiores quibusdam libero magnam! Quis, dolorem impedit non modi libero neque explicabo alias ipsum facilis id?</p>
+                        <a href=""><h3>Leer más</h3></a>
+                    </div>
+                    <div>
+                        <img src="./img/proyectos-imagen.jpg" alt="mujer trabajando">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptatum rerum quasi ipsa omnis maiores quibusdam libero magnam! Quis, dolorem impedit non modi libero neque explicabo alias ipsum facilis id?</p>
+                        <a href=""><h3>Leer más</h3></a>
+                    </div>
+                    <div>
+                        <img src="./img/proyectos-imagen.jpg" alt="mujer trabajando">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est voluptatum rerum quasi ipsa omnis maiores quibusdam libero magnam! Quis, dolorem impedit non modi libero neque explicabo alias ipsum facilis id?</p>
+                        <a href=""><h3>Leer más</h3></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <footer>           
+
+            <div class="footer-redes"> 
+                <h3>Redes sociales</h3>
+                <ul>
+                    <a href="/"><img src="./img-redes/facebook.png" alt=""></a>
+                    <a href="/"><img src="./img-redes/instagram.png" alt=""></a>
+                    <a href="/"><img src="./img-redes/linkedin.png" alt=""></a>
+                </ul>
+            </div> 
+
+            <div class="footer-form">
+                <p><em>¡Ven y transforma tu conocimiento! <br>Haz parte de nuestro equipo</em></p>
+          
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre completo</label>
+                        <input id="nombre" name="nombre" type="text"/>
+                        <p class="alertas" id="alertas"></p>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            placeholder="pepe@gmail.com"/>
+                    </div>
+            
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="mensaje">Adjuntar</label>
+                        <input
+                            id="file"
+                            name="file"
+                            type="file"
+                    </div>
+            
+                    <div class="form-row">
+                        <button id="boton" type="button">Enviar</button>
+                    </div>       
+                </form> 
+            </div>  
+ 
+        </footer>      
+</body>
+</html>
