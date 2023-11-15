@@ -101,7 +101,7 @@
                     <div class="form-row">
                         <label for="nombre">Nombre completo</label>
                         <input id="nombre" name="nombre" type="text"/>
-                        <p class="alertas" id="alertas"></p>
+                        <p class="alertas" id="alerta-nombre"></p>
                     </div>
             
                     <div class="form-row">
@@ -111,11 +111,13 @@
                             name="email"
                             type="email"
                             placeholder="pepe@gmail.com"/>
+                        <p class="alertas" id="alerta-email"></p>
                     </div>
             
                     <div class="form-row">
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" name="mensaje"></textarea>
+                        <p class="alertas" id="alerta-mensaje"></p>
                     </div>
 
                     <div class="form-row">
@@ -123,12 +125,14 @@
                         <input
                             id="file"
                             name="file"
-                            type="file"
+                            type="file"/>
                     </div>
             
                     <div class="form-row">
                         <button id="boton" type="button">Enviar</button>
-                    </div>       
+                    </div> 
+                    
+                    <p class="enviado" id="alerta-enviado"></p>
                 </form> 
             </div>  
  

@@ -56,7 +56,6 @@ li:hover {
     color: black;
 }
 
-
 .seccion-1 {
     width: 100%;
     display: flex;
@@ -281,8 +280,7 @@ footer ul a {
 
 
 
-.form-row button {
-   
+.form-row button {   
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
@@ -295,6 +293,14 @@ footer ul a {
     height: 40px;
     background-color: rgb(195, 186, 169);
     cursor: pointer;
+}
+
+#alerta-enviado {
+    font-size: 20px;
+    color: red;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
